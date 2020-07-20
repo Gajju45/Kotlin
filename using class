@@ -1,0 +1,16 @@
+
+fun main(args: kotlin.Array<String>) {
+
+    var name: String
+    name = "Predator"
+
+    var personObj=Person()
+    personObj.display(name)
+
+}
+
+class Person {
+    fun display(name: String) {
+        print(name)
+    }
+}
