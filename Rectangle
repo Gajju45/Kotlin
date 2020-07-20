@@ -1,0 +1,11 @@
+fun main(arg: Array<String>){
+   var rect= Rectangle()
+    rect.a=90
+    rect.b=70
+   print("Length ${rect.a} and Breath ${rect.b}")
+}
+class Rectangle{
+    var a=0
+    var b=0
+
+}
