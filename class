@@ -2,6 +2,7 @@ fun main(args: kotlin.Array<String>) {
     var obj=Person()
     obj.name="Steve"
     print("The Name Of Person is "+obj.name)
+     print("The Name Of Person is ${obj.name}")//concate
 }
 
 class Person {
