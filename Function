@@ -1,0 +1,11 @@
+
+fun main(args: kotlin.Array<String>) {
+
+    var name: String
+    name = "Gajju"
+    display(name)
+}
+
+fun display(name: String){
+    print(name)
+}
