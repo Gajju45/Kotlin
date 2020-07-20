@@ -1,0 +1,17 @@
+
+fun main(args: kotlin.Array<String>){
+
+    var Number=89;
+    var numDecimal=9.8
+
+
+    var myString:String//Mutable String String Update Hello to Word
+    myString="Hello"
+    myString="Word"
+    
+    val  myAnotherString="Constant String"//Immutable String String Constant
+
+    println(Number)
+    println(numDecimal)
+    println(myString)
+}
