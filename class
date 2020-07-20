@@ -1,0 +1,10 @@
+fun main(args: kotlin.Array<String>) {
+    var obj=Person()
+    obj.name="Steve"
+    print("The Name Of Person is "+obj.name)
+}
+
+class Person {
+    var name:String=""
+
+}
