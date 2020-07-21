@@ -1,0 +1,11 @@
+fun main(arg: Array<String>) {
+    //Break
+    innrloop@ for(i in 1..4){
+        for (j in 1..4){
+            println("$i $j")
+            if (i==2 && j==2)
+                break@innrloop
+        }
+
+    }
+}
