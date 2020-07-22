@@ -1,0 +1,24 @@
+
+fun main(arg: Array<String>) {
+    val x:Int=8
+    val y:Int=5
+
+    val gratervalue=x graterVallue y //We Can't use infix then written   x.graterVallue(y)
+    println(gratervalue)
+
+
+}
+
+infix fun Int.graterVallue(Other:Int):Int{
+
+    if(this >Other)
+        return this
+    else
+        return Other
+}
+
+
+
+//reduce readability
+//all infix function are extension function But all extension function are not Infix
+//Infix function just have One parameter
