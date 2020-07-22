@@ -1,0 +1,22 @@
+
+fun main(arg: Array<String>) {
+
+   var st=Student()
+
+    println("Pass status:"+st.hasPass(59))
+    println("Scholarship:"+st.isScholarship(89))
+
+
+
+}
+
+fun Student.isScholarship(mark: Int):Boolean{
+    return mark>90
+}
+
+class Student{
+
+    fun hasPass(mark: Int): Boolean{
+        return mark >40
+}
+}
