@@ -1,0 +1,24 @@
+
+fun main(arg: Array<String>) {
+    var st=Student("John",10)
+
+    print(st.id)
+}
+
+class Student(var name:String){
+    var id:Int=1
+    init {
+        println("Student name $name, ID=$id")
+    }
+    constructor(n:String,id: Int):this(n){
+        //secondary constructor is called after the init block
+        this.id=id
+    }
+}
+
+//canot declare secondary constructor parameter
+/*
+OUTPUT
+* Student name John, ID=1
+10
+* */
