@@ -1,0 +1,9 @@
+fun main(arg: Array<String>) {
+    var st=Student("John")
+}
+
+class Student(name:String){
+    init {
+        println("Student name $name")
+    }
+}
