@@ -1,0 +1,16 @@
+
+fun main(arg: Array<String>) {
+
+    val s1: String = "Gajendra "
+    val s2: String = " Raj "
+    
+    var s3: String = "Sharma"
+
+
+    print(s3.add(s1, s2))
+
+}
+        //pre-define String use
+    fun String.add(s1:String,s2:String):String{
+        return s1+s2+this
+    }
