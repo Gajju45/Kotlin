@@ -1,0 +1,10 @@
+//Simple class
+
+fun main(arg: Array<String>) {
+    var st=Student()
+    print(st.name)
+}
+
+class Student{
+    var name:String="Gajju"
+}
